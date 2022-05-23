@@ -7,7 +7,7 @@
   /* overflow-x: hidden; */
 }
 .hero-img img {
-  width: auto;
+  width: 100vw;
   height: auto;
   object-fit: cover;
   position: fixed;
@@ -114,6 +114,9 @@
 }
 
 @media screen and (max-width: 1225px) {
+  .hero-img img {
+    width: auto;
+  }
 }
 @media screen and (max-width: 800px) {
   .hamburger {
